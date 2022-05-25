@@ -4,5 +4,5 @@ import Layout from "../components/layout";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <Layout>Welcome</Layout>;
+  return <Layout pageTitle="Home"> Welcome</Layout>;
 }
